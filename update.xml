@@ -22,8 +22,8 @@
         <url>https://github.com/Yuresh/DimoSLTBillPayment/blob/master/MigrationScript.sql?raw=true</url> 
         <filePath>./MigrationScript.sql</filePath>
         <md5>09ad1858e56b88f4841921639ae8af0f</md5>
-        <description>a</description> 
-        <launchArgs>a</launchArgs> 
+        <description>add node</description> 
+        <launchArgs>add node </launchArgs> 
     </add>
     
 </sharpUpdate>
