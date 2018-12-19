@@ -2,7 +2,7 @@
 <sharpUpdate> 
     <update> 
         <version>2.0.0.0</version> 
-        <url>https://github.com/Yuresh/DimoSLTBillPayment/blob/master/SLTBillPayment.exe?raw=true</url> 
+        <url>https://github.com/Yuresh/DimoSLTBILLPayment2/blob/master/SLTBillPayment.exe</url> 
         <filePath>./SLTBillPayment.exe</filePath> 
         <md5>75981B0DD261AF957E636035BD748DF2</md5>
         <description>update app</description> 
@@ -11,7 +11,7 @@
     
     <update> 
         <version>2.0.0.0</version> 
-        <url>https://github.com/Yuresh/DimoSLTBillPayment/blob/master/SharpUpdate.dll?raw=true</url> 
+        <url>https://github.com/Yuresh/DimoSLTBILLPayment2/blob/master/SharpUpdate.dll?raw=true</url> 
         <filePath>./SharpUpdate.dll</filePath>
         <md5>C8B65ECB92595FD63C27FB9855C7D64C</md5>
         <description>Update update Library</description> 
@@ -19,11 +19,20 @@
     </update>
     
     <add> 
-        <url>https://github.com/Yuresh/DimoSLTBillPayment/blob/master/MigrationScript.sql?raw=true</url> 
+        <url>https://github.com/Yuresh/DimoSLTBILLPayment2/blob/master/MigrationScript.sql?raw=true</url> 
         <filePath>./MigrationScript.sql</filePath>
         <md5>09ad1858e56b88f4841921639ae8af0f</md5>
         <description>add node</description> 
         <launchArgs>add node </launchArgs> 
     </add>
+    
+    <add> 
+        <url>https://github.com/Yuresh/DimoSLTBILLPayment2/blob/master/SLTBillPayment.exe.config?raw=true</url> 
+        <filePath>./Database/SLTBillPayment.exe.config</filePath>
+        <md5>09ad1858e56b88f4841921639ae8af0f</md5>
+        <description>add node</description> 
+        <launchArgs>add node </launchArgs> 
+    </add>
+    
     
 </sharpUpdate>
